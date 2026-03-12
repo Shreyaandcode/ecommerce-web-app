@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="800" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Title -->
+    <text x="200" y="50" font-family="Courier" font-size="32" fill="#4CAF50" text-anchor="middle">YOUR DRESS DESIGN</text>
+    
+    <!-- Neck Mount -->
+    <path d="M190 100 L210 100 L208 110 L192 110 Z" 
+          fill="#e6e6d4" stroke="#333" stroke-width="1.5"/>
+    
+    <!-- Mannequin Body -->
+    <path d="M200 110
+             C205 120, 210 130, 212 140
+             C215 155, 215 170, 212 185
+             C210 200, 208 215, 205 230
+             
+             C215 250, 220 270, 220 290
+             C220 310, 218 330, 215 350
+             C212 370, 208 390, 200 410
+             
+             C192 390, 188 370, 185 350
+             C182 330, 180 310, 180 290
+             C180 270, 185 250, 195 230
+             
+             C192 215, 190 200, 188 185
+             C185 170, 185 155, 188 140
+             C190 130, 195 120, 200 110"
+          fill="white" 
+          stroke="#333" 
+          stroke-width="2"/>
+    
+    <!-- Stand -->
+    <g fill="#e6e6d4" stroke="#333" stroke-width="1.5">
+        <!-- Top Mount -->
+        <circle cx="200" cy="420" r="8"/>
+        
+        <!-- Upper Pole -->
+        <path d="M200 428 L200 480"/>
+        
+        <!-- Middle Ornament -->
+        <path d="M190 480 C200 470, 200 490, 210 480
+                 M185 500 C200 485, 200 515, 215 500
+                 M180 520 C200 500, 200 540, 220 520"/>
+        
+        <!-- Lower Pole -->
+        <path d="M200 540 L200 600"/>
+        
+        <!-- Bottom Ornament -->
+        <path d="M180 600 C200 580, 200 620, 220 600
+                 M170 620 C200 595, 200 645, 230 620"/>
+        
+        <!-- Base -->
+        <path d="M160 650 
+                 C180 645, 220 645, 240 650
+                 C250 652, 250 658, 240 660
+                 C220 665, 180 665, 160 660
+                 C150 658, 150 652, 160 650 Z"/>
+    </g>
+</svg> 
